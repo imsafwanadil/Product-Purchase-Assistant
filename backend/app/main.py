@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.api import chat, products
+from fastapi import APIRouter
 
 app = FastAPI(title="Purchase Decision Assistant")
 
